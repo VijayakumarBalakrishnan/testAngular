@@ -1,0 +1,21 @@
+
+   <!-- <p>data displayed on child component :{{dataOne}}</p>-->
+      <!--<button (click)="checkchildData()">Click Me</button>-->
+    
+        @if(data =='child'){
+            <p>Passing child data</p>
+        }
+        @else if (data=='parent') {
+            <p>Parent Data</p>
+        }
+        @else {
+            <p>No admin data</p>
+        }
+
+
+        <h1>Lowercase Pipe</h1>  
+<b>{{title | uppercase}}</b><br/>  
+<b>{{"HELLO GEEKS"| lowercase}}</b><br/>  
+
+<!--<p>data from child component:{{first}}</p> -->
+<button (click)="sayHello()">Click Me</button>
